@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+background-color: #343d7b;
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+
+.home {
+    background: rgb(196, 199, 247);
+    background: radial-gradient(at 25% top, rgb(196, 211, 247) 0%, rgb(144, 143, 206) 90%);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second {
+    background: rgb(196, 199, 247);
+    background: radial-gradient(at 25% top, rgb(196, 211, 247) 0%, rgb(144, 143, 206) 90%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third {
+    background: rgb(196, 199, 247);
+    background: radial-gradient(at 25% top, rgb(196, 211, 247) 0%, rgb(144, 143, 206) 90%);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heartbeat {
+    animation: heartbeat 6s ease-in-out infinite both
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        animation-timing-function: ease-out
+    }
+
+    10% {
+        transform: scale(.85);
+        animation-timing-function: ease-in
+    }
+
+    17% {
+        transform: scale(.95);
+        animation-timing-function: ease-out
+    }
+
+    33% {
+        transform: scale(.8);
+        animation-timing-function: ease-in
+    }
+
+    45% {
+        transform: scale(1);
+        animation-timing-function: ease-out
+    }
+}
+
+.citem{
+    background: rgba(0,0,0,0);
+    background: linear-gradient(110deg, rgba(255, 255, 255, 0.1) 0%,rgba(255,255,255,0.0) 50%, rgba(143, 146, 206, 0.51) 100%);
+}
+
+.back3d1{
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+}
