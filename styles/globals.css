@@ -13,8 +13,8 @@ overflow: hidden;
 }
 
 .home {
-    background: rgb(196, 199, 247);
-    background: radial-gradient(at 25% top, rgb(196, 211, 247) 0%, rgb(144, 143, 206) 90%);
+    background: rgb(247, 243, 196);
+    background: radial-gradient(at 25% top, rgb(247, 245, 196) 0%, rgb(206, 202, 143) 90%);
     height: 100vh;
     background-size: cover;
     background-position: center;
