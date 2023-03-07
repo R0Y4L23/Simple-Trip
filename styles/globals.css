@@ -85,3 +85,10 @@ overflow: hidden;
     height: 100vh;
     width: 100vw;
 }
+
+.mainBg{
+  background: url(../assets/nightSkyBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
